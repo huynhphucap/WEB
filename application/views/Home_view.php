@@ -11,7 +11,7 @@
     <!-- <link rel="manifest" href="site.webmanifest"> -->
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
     <!-- Place favicon.ico in the root directory -->
-    <link href="<?php echo base_url(); ?>assets/css/bootsrap.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/css/bootstrap.css" rel="stylesheet">
     <!-- My css -->
     <link href="<?php echo base_url(); ?>assets/css/style.css" rel="stylesheet">
 
@@ -25,11 +25,10 @@
         <h2>Travel</h2>
         <p>Come to with me, share your journey</p>
     </div>
-    <button type="button" class="btn btn-danger">Danger</button>
     <div id="navbar">
         <a class="active" href="javascript:void(0)">Home</a>
         <a href="javascript:void(0)">News</a>
-        <a href="javascript:void(0)">Contact</a>
+        <a href="javascript:void(0)">Travel Blog</a>
     </div>
 
     <div class="content">
@@ -43,7 +42,71 @@
         <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
         <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
     </div>
+    
+    <!-- Main content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="<?php echo base_url(); ?>assets/image/PC1.jpg" alt="Image">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <button type="button" class="btn btn-info">Watch</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="<?php echo base_url(); ?>assets/image/PC2.jpg" alt="Image">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <button type="button" class="btn btn-info">Watch</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="<?php echo base_url(); ?>assets/image/PC3.jpg" alt="Image">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <button type="button" class="btn btn-info">Watch</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="<?php echo base_url(); ?>assets/image/PC1.jpg" alt="Image">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <button type="button" class="btn btn-info">Watch</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="<?php echo base_url(); ?>assets/image/PC2.jpg" alt="Image">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <button type="button" class="btn btn-info">Watch</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="<?php echo base_url(); ?>assets/image/PC3.jpg" alt="Image">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <button type="button" class="btn btn-info">Watch</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
+
+    <!-- ./Main content -->
     <script>
         window.onscroll = function() {
             myFunction()
