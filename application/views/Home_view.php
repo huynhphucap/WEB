@@ -11,9 +11,9 @@
     <!-- <link rel="manifest" href="site.webmanifest"> -->
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
     <!-- Place favicon.ico in the root directory -->
-    <link href="<?php echo base_url(); ?>assets/css/bootsrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/css/bootsrap.css" rel="stylesheet">
     <!-- My css -->
-    <link href="<?php echo base_url(); ?>assets/mycss/style.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/css/style.css" rel="stylesheet">
 
 </head>
 
@@ -25,7 +25,7 @@
         <h2>Travel</h2>
         <p>Come to with me, share your journey</p>
     </div>
-    <div class="btn btn-danger">Hello</div>
+    <button type="button" class="btn btn-danger">Danger</button>
     <div id="navbar">
         <a class="active" href="javascript:void(0)">Home</a>
         <a href="javascript:void(0)">News</a>
@@ -61,10 +61,9 @@
         }
     </script>
     <!-- Javascript -->
-    <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
-    <!-- My javascript -->
-    <script src="<?php echo base_url(); ?>assets/myjs/materialize.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/myjs/jquery.min.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/materialize.min.js"></script>
 </body>
 
 </html>
