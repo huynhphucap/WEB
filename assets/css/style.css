@@ -1,31 +1,41 @@
 /*
     Navigation bar 
  */
-body {
-	margin: 0;
-	font-size: 28px;
-	font-family: Arial, Helvetica, sans-serif;
+* {
+	box-sizing: border-box;
 }
 
-.header {
-	background-color: #f1f1f1;
-	padding: 30px;
-	text-align: center;
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 #navbar {
 	overflow: hidden;
-	background-color: #333;
+	background-color: #f1f1f1;
+	padding: 90px 10px;
+	transition: 0.4s;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 99;
 }
 
 #navbar a {
 	float: left;
-	display: block;
-	color: #f2f2f2;
+	color: black;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 12px;
 	text-decoration: none;
-	font-size: 17px;
+	font-size: 18px;
+	line-height: 25px;
+	border-radius: 4px;
+}
+
+#navbar #logo {
+	font-size: 35px;
+	font-weight: bold;
+	transition: 0.4s;
 }
 
 #navbar a:hover {
@@ -34,22 +44,32 @@ body {
 }
 
 #navbar a.active {
-	background-color: #4caf50;
+	background-color: dodgerblue;
 	color: white;
 }
 
+#navbar-right {
+	float: right;
+}
+
 .content {
-	padding: 16px;
+	margin-top: 210px;
+	padding: 15px 15px 20px;
+	font-size: 30px;
 }
 
-.sticky {
-	position: fixed;
-	top: 0;
-	width: 100%;
-}
-
-.sticky + .content {
-	padding-top: 60px;
+@media screen and (max-width: 580px) {
+	#navbar {
+		padding: 20px 10px !important;
+	}
+	#navbar a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+	#navbar-right {
+		float: none;
+	}
 }
 /* 
     Casoure
@@ -71,4 +91,12 @@ body {
 .carousel-item img {
 	width: auto !important;
 	height: 350px !important;
+}
+/*
+	Detail
+ */
+.image-content {
+	width: 1200px; /* or whatever width you want. */
+	max-width: 1200px; /* or whatever width you want. */
+	display: inline-block;
 }
